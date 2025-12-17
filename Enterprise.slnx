@@ -1,1 +1,20 @@
-<Solution />
+<Solution>
+  <Folder Name="/Source/" />
+  <Folder Name="/Source/Core/">
+    <Project Path="Source/Core/Enterprise.Application/Enterprise.Application.csproj" />
+    <Project Path="Source/Core/Enterprise.Domain/Enterprise.Domain.csproj" />
+  </Folder>
+  <Folder Name="/Source/Infrastructure/">
+    <Project Path="Source/Infrastructure/Enterprise.Infrastructure.Identity/Enterprise.Infrastructure.Identity.csproj" />
+    <Project Path="Source/Infrastructure/Enterprise.Infrastructure.Persistence/Enterprise.Infrastructure.Persistence.csproj" />
+    <Project Path="Source/Infrastructure/Enterprise.Infrastructure.Resources/Enterprise.Infrastructure.Resources.csproj" />
+  </Folder>
+  <Folder Name="/Source/Presentation/">
+    <Project Path="Source/Presentation/Enterprise.WebApi/Enterprise.WebApi.csproj" />
+  </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="Tests/Enterprise.Test.Functional/Enterprise.Test.Functional.csproj" />
+    <Project Path="Tests/Enterprise.Test.Integration/Enterprise.Test.Integration.csproj" />
+    <Project Path="Tests/Enterprise.Test.Unit/Enterprise.Test.Unit.csproj" />
+  </Folder>
+</Solution>

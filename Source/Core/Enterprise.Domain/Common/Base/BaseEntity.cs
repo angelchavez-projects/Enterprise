@@ -2,7 +2,7 @@
 {
     public abstract class BaseEntity<Tkey>
     {
-        public required Tkey Id { get; set; }
+        public Tkey Id { get; set; }
     }
 
     public abstract class BaseEntity : BaseEntity<long> { }

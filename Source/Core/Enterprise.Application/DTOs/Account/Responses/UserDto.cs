@@ -1,0 +1,12 @@
+﻿namespace Enterprise.Application.DTOs.Account.Responses
+{
+    public class UserDto
+    {
+        public Guid Id { get; set; }
+        public required string UserName { get; set; }
+        public required string Name { get; set; }
+        public required string Email { get; set; }
+        public required string PhoneNumber { get; set; }
+        public DateTime Created { get; set; }
+    }
+}

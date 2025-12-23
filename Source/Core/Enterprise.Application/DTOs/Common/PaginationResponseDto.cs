@@ -1,4 +1,6 @@
-﻿namespace Enterprise.Application.DTOs.Common
+﻿using System.Collections.Generic;
+
+namespace Enterprise.Application.DTOs.Common
 {
     public class PaginationResponseDto<T>(List<T> data, int count, int pageNumber, int pageSize)
     {

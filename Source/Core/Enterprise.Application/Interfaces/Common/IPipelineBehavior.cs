@@ -1,4 +1,8 @@
-﻿namespace Enterprise.Application.Interfaces.Common
+﻿using System;
+using System.Threading;
+using System.Threading.Tasks;
+
+namespace Enterprise.Application.Interfaces.Common
 {
     public interface IPipelineBehavior<in TRequest, TResponse>
     {

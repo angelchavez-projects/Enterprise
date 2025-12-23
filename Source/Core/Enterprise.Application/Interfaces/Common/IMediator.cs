@@ -1,4 +1,7 @@
-﻿namespace Enterprise.Application.Interfaces.Common
+﻿using System.Threading;
+using System.Threading.Tasks;
+
+namespace Enterprise.Application.Interfaces.Common
 {
     public interface IMediator
     {

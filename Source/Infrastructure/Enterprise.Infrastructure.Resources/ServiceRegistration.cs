@@ -1,7 +1,8 @@
 ﻿using Enterprise.Application.Interfaces.Common;
+using Enterprise.Infrastructure.Resources.Services;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Enterprise.Infrastructure.Resources.Services
+namespace Enterprise.Infrastructure.Resources
 {
     public static class ServiceRegistration
     {

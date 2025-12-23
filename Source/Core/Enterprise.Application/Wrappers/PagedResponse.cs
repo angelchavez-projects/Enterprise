@@ -1,4 +1,6 @@
 ﻿using Enterprise.Application.DTOs.Common;
+using System;
+using System.Collections.Generic;
 
 namespace Enterprise.Application.Wrappers
 {

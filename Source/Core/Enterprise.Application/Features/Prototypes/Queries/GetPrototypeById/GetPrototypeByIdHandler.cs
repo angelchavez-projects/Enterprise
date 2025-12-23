@@ -4,6 +4,8 @@ using Enterprise.Application.Interfaces.Persistence.Repositories;
 using Enterprise.Application.Wrappers;
 using Enterprise.Application.Wrappers.Enums;
 using Enterprise.Domain.Prototypes.DTOs;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace Enterprise.Application.Features.Prototypes.Queries.GetPrototypeById
 {

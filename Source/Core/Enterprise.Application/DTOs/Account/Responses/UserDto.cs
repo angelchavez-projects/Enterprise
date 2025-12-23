@@ -1,4 +1,6 @@
-﻿namespace Enterprise.Application.DTOs.Account.Responses
+﻿using System;
+
+namespace Enterprise.Application.DTOs.Account.Responses
 {
     public class UserDto
     {

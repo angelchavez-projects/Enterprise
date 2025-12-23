@@ -1,12 +1,18 @@
 ﻿using Enterprise.Application.Interfaces.Common;
 using FluentValidation;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace Enterprise.Application.Behaviours
 {
     public class ValidationBehavior<TRequest, TResponse>(IEnumerable<IValidator<TRequest>> validators)
            : IPipelineBehavior<TRequest, TResponse>
     {
-        public async Task<TResponse> Handle(TRequest request, Func<Task<TResponse>> next, CancellationToken cancellationToken = default)
+
+        public async Task<TResponse> Handle(TRequest request, Func<Task<TResponse>> next, CancellationToken cancellationToken)
         {
             if (validators.Any())
             {

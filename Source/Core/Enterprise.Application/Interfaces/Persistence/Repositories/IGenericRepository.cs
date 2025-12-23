@@ -1,4 +1,7 @@
-﻿namespace Enterprise.Application.Interfaces.Persistence.Repositories
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+
+namespace Enterprise.Application.Interfaces.Persistence.Repositories
 {
     public interface IGenericRepository<T> where T : class
     {

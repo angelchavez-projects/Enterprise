@@ -1,4 +1,6 @@
-﻿namespace Enterprise.Application.DTOs.Account.Responses
+﻿using System.Collections.Generic;
+
+namespace Enterprise.Application.DTOs.Account.Responses
 {
     public class AuthenticationResponse
     {

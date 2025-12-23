@@ -1,4 +1,7 @@
-﻿namespace Enterprise.Application.Interfaces.Common
+﻿using System.Threading;
+using System.Threading.Tasks;
+
+namespace Enterprise.Application.Interfaces.Common
 {
     public interface IRequestHandler<TRequest, TResponse> where TRequest : IRequest<TResponse>
     {

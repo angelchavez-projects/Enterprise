@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
-namespace Enterprise.Infrastructure.Persistence.Services
+namespace Enterprise.Infrastructure.Persistence
 {
     public static class ServiceRegistration
     {

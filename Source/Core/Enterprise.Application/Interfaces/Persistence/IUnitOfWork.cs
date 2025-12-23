@@ -1,4 +1,6 @@
-﻿namespace Enterprise.Application.Interfaces.Persistence
+﻿using System.Threading.Tasks;
+
+namespace Enterprise.Application.Interfaces.Persistence
 {
     public interface IUnitOfWork
     {

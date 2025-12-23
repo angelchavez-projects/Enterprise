@@ -1,4 +1,6 @@
-﻿namespace Enterprise.Application.Wrappers
+﻿using System.Collections.Generic;
+
+namespace Enterprise.Application.Wrappers
 {
     public class Result
     {
@@ -15,7 +17,7 @@
             => new() { Success = false, Errors = [error] };
 
         public static Result Failure(IEnumerable<Error> errors)
-            => new() { Success = false, Errors = errors.ToList() };
+            => new() { Success = false, Errors = [.. errors] };
 
         public static implicit operator Result(Error error)
             => new() { Success = false, Errors = [error] };
@@ -45,7 +47,7 @@
             => new() { Success = false, Errors = [error] };
 
         public new static Result<TData> Failure(IEnumerable<Error> errors)
-            => new() { Success = false, Errors = errors.ToList() };
+            => new() { Success = false, Errors = [.. errors] };
 
         public static implicit operator Result<TData>(TData data)
             => new() { Success = true, Data = data };

@@ -3,6 +3,7 @@ using Enterprise.Application.Wrappers;
 using Enterprise.Application.Wrappers.Enums;
 using Enterprise.Infrastructure.Identity.Contexts;
 using Enterprise.Infrastructure.Identity.Models;
+using Enterprise.Infrastructure.Identity.Services;
 using Enterprise.Infrastructure.Identity.Settings;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Http;
@@ -14,7 +15,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Security.Claims;
 using System.Text;
 
-namespace Enterprise.Infrastructure.Identity.Services
+namespace Enterprise.Infrastructure.Identity
 {
     public static class ServiceRegistration
     {

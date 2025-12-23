@@ -1,6 +1,7 @@
 ﻿using Enterprise.Application.DTOs.Common;
 using Enterprise.Domain.Prototypes.DTOs;
 using Enterprise.Domain.Prototypes.Entities;
+using System.Threading.Tasks;
 
 namespace Enterprise.Application.Interfaces.Persistence.Repositories
 {
